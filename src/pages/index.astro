@@ -2,19 +2,10 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Header from "../components/Header";
+import Layout from "../layouts/layout.astro";
 ---
-
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type ="image/svg+xml" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content = {Astro.generator} >
-    <title>Tech with Alberto</title>
-  </head>
-  <body>
+    <Layout />
     <Navbar client:load/>
     <Hero />
     <Header />
-  </body>
-</html>
+

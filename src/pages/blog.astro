@@ -1,6 +1,8 @@
 ---
+import Layout from "../layouts/layout.astro";
 import Navbar from "../components/Navbar";
 ---
-<!-- Controllare perche in idle -->
-<Navbar client:idle/>
+
+<Layout />
+<Navbar client:load/>
 <h1>This is my blog</h1>
