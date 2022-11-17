@@ -1,15 +1,15 @@
-import { Fragment } from 'react'
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
-import { CiTwitter } from 'react-icons/ci'
+import { Disclosure } from '@headlessui/react'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline/index.js'
+import { FiTwitter, FiInstagram } from 'react-icons/fi/index'
 
 const navigation = [
 
 
-  { name: 'Homepage', href: '', current: true },
+  { name: 'Homepage', href: '/', current: true },
   { name: 'Blog', href: '../blog', current: false },
   { name: 'My story', href: '#', current: false },
   { name: 'My setup', href: '#', current: false },
+  { name: 'Buy my products', href: '#', current: false },
 ]
 
 function classNames(...classes) {
@@ -39,12 +39,12 @@ export default function Navbar() {
                   <img
                     className="block h-8 w-auto lg:hidden"
                     src="https://pbs.twimg.com/profile_images/1337083687171727366/3KDElEJS_400x400.jpg"
-                    alt="Your Company"
+                    alt="logo"
                   />
                   <img
                     className="hidden h-8 w-auto lg:block"
                     src="https://pbs.twimg.com/profile_images/1337083687171727366/3KDElEJS_400x400.jpg"
-                    alt="Your Company"
+                    alt="logo"
                   />
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
@@ -66,18 +66,16 @@ export default function Navbar() {
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <button
+                {/* <button
                   type="button"
-                  className="rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                  className="p-1 text-white text-sm font-medium"
                 >
-                  <span className="sr-only">View notifications</span>
-                  <BellIcon className="h-6 w-6" aria-hidden="true" />
-                </button>
-
-                {/* Profile dropdown */}
-                <div>
-                    <CiTwitter />
-                </div>
+                  Buy my products
+                  
+                </button> */}
+                {/* Socials */}
+                <a href="http://"><FiTwitter className='text-white ml-7 text-2xl'/></a>
+                <a href="http://"><FiInstagram className='text-white ml-4 text-2xl mr-2'/></a>                
               </div>
             </div>
           </div>
