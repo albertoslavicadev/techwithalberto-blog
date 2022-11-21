@@ -3,7 +3,7 @@ export default function Hero() {
     <div>
       <main>
         <div className="relative px-6 lg:px-8">
-          <div className="mx-auto max-w-3xl pt-14 pb-10 sm:pt-24 sm:pb-40">
+          <div className="mx-auto max-w-3xl pt-14 pb-5 sm:pt-24 sm:pb-20">
             <div>
               <div className="hidden sm:mb-8 sm:flex sm:justify-center">
                 <div className="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
@@ -31,7 +31,7 @@ export default function Hero() {
                   >
                     Latest Article
                     <span className="text-indigo-200" aria-hidden="true">
-                      &rarr;
+                      
                     </span>
                   </a>
                   <a
@@ -40,7 +40,7 @@ export default function Hero() {
                   >
                     Browse
                     <span className="text-gray-400" aria-hidden="true">
-                      &rarr;
+                      
                     </span>
                   </a>
                 </div>
