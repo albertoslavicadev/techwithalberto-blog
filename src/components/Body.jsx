@@ -8,4 +8,4 @@ const Body = () => {
   )
 }
 
-export default Body1
+export default Body
