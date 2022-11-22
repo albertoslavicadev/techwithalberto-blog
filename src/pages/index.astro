@@ -4,6 +4,9 @@ import Hero from "../components/Hero";
 import Header from "../components/Header";
 import Layout from "../layouts/layout.astro";
 import Cookie from "../components/Cookie";
+import Body from "../components/Body";
+import Footer from "../components/Footer";
+import Blog from "../components/Blog";
 
 ---
   <Cookie client:load/>
@@ -11,3 +14,7 @@ import Cookie from "../components/Cookie";
   <Navbar client:load/>
   <Hero />
   <Header />
+  <Blog />
+  <Body client:load/>
+
+  <Footer />

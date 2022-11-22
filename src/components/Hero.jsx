@@ -11,7 +11,7 @@ export default function Hero() {
                     Subscribe to my newsletter to stay updated and to get discounts to our products.{' '}
                     <a href="#" className="font-semibold text-indigo-600">
                       <span className="absolute inset-0" aria-hidden="true" />
-                      Subscribe<span aria-hidden="true">&rarr;</span>
+                      Subscribe<span aria-hidden="true"></span>
                     </a>
                   </span>
                 </div>
@@ -76,6 +76,40 @@ export default function Hero() {
           </div>
         </div>
       </main>
+      <div className="w-68 md:w-1/2 md:mx-auto m-2">
+        <div className="w-full shadow-2xl subpixel-antialiased rounded h-80 bg-black border-black mx-auto ">
+          <div
+            className="flex items-center h-6 rounded-t bg-white border-b border-gray-500 text-center text-black"
+            id="headerTerminal"
+          >
+            <div
+              className="flex ml-2 items-center text-center border-red-900 bg-red-500 shadow-inner rounded-full w-3 h-3"
+              id="closebtn"
+            ></div>
+            <div
+              className="ml-2 border-yellow-900 bg-yellow-500 shadow-inner rounded-full w-3 h-3"
+              id="minbtn"
+            ></div>
+            <div
+              className="ml-2 border-green-900 bg-green-500 shadow-inner rounded-full w-3 h-3"
+              id="maxbtn"
+            ></div>
+            <div className="mx-auto pr-16" id="terminaltitle">
+              <p className="text-center text-sm">Terminal</p>
+            </div>
+          </div>
+          <div
+            className="pl-1 pt-1 h-auto  text-green-200 font-mono text-xl bg-black"
+            id="console"
+          >
+            <p className="pb-1">Last login: Wed Nov 21</p>
+            <p className="pb-1">alberto@machine: cd /code/techwithalberto</p>
+            <p className="pb-1">alberto@machine: echo ./Read my new Blog post!</p>
+
+
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

@@ -1,15 +1,16 @@
 import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline/index.js'
-import { FiTwitter, FiInstagram } from 'react-icons/fi/index'
+import { FiTwitter, FiInstagram, FiGithub } from 'react-icons/fi/index'
+import logo from '../assets/logo.png'
 
 const navigation = [
 
 
   { name: 'Homepage', href: '/', current: true },
   { name: 'Blog', href: '/blog', current: false },
-  { name: 'My story', href: '#', current: false },
-  { name: 'My setup', href: '#', current: false },
-  { name: 'Buy my products', href: '#', current: false },
+  { name: 'My story', href: '/mystory', current: false },
+  { name: 'My setup', href: '/mysetup', current: false },
+  { name: 'Buy my products', href: '/buyproducts', current: false },
 ]
 
 function classNames(...classes) {
@@ -21,7 +22,7 @@ export default function Navbar() {
     <Disclosure as="nav" className="bg-gray-900">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-122 sm:px-6 lg:px-8">
+          <div className="top-0 mx-auto max-w-7xl px-122 sm:px-6 lg:px-8">
             <div className="relative flex h-16 items-center sm:justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
@@ -37,17 +38,17 @@ export default function Navbar() {
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                   <img
-                    className="block h-8 w-auto lg:hidden"
-                    src="https://pbs.twimg.com/profile_images/1337083687171727366/3KDElEJS_400x400.jpg"
+                    className="block h-12 w-auto lg:hidden"
+                    src={logo}
                     alt="logo"
                   />
                   <img
-                    className="hidden h-8 w-auto lg:block"
-                    src="https://pbs.twimg.com/profile_images/1337083687171727366/3KDElEJS_400x400.jpg"
+                    className="hidden h-12 w-auto lg:block"
+                    src={logo}
                     alt="logo"
                   />
                 </div>
-                <div className="hidden sm:ml-6 sm:block">
+                <div className="hidden sm:mt-1.5 sm:ml-6 sm:block">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
                       <a
@@ -55,7 +56,7 @@ export default function Navbar() {
                         href={item.href}
                         className={classNames(
                           item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                          'px-3 py-2 rounded-md text-sm font-medium'
+                          'px-3 pb-2 py-2 rounded-md text-sm font-medium'
                         )}
                         aria-current={item.current ? 'page' : undefined}
                       >
@@ -75,7 +76,8 @@ export default function Navbar() {
                 </button> */}
                 {/* Socials */}
                 <a href="http://"><FiTwitter className='text-white ml-7 text-2xl'/></a>
-                <a href="http://"><FiInstagram className='text-white ml-4 text-2xl mr-2'/></a>                
+                <a href="http://"><FiInstagram className='text-white ml-4 text-2xl mr-2'/></a>
+                <a href="http://"><FiGithub className='text-white ml-2 text-2xl mr-2'/></a>               
               </div>
             </div>
           </div>
