@@ -1,4 +1,6 @@
 export default function Hero() {
+  const current = new Date();
+  const date = `${current.getDate()}/${current.getMonth()+1}/${current.getFullYear()}`;
   return (
     <div>
       <main>
@@ -102,7 +104,7 @@ export default function Hero() {
             className="pl-1 pt-1 h-auto  text-green-200 font-mono text-xl bg-black"
             id="console"
           >
-            <p className="pb-1">Last login: Wed Nov 21</p>
+            <p className="pb-1">Last login: {date}</p>
             <p className="pb-1">alberto@machine: cd /code/techwithalberto</p>
             <p className="pb-1">alberto@machine: echo ./Read my new Blog post!</p>
 
