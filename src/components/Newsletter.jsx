@@ -1,7 +1,9 @@
 import React from "react";
 import { useState } from "react";
-import db from "../firebase";
 import { FirebaseApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore";
+    
+
 
 const Newsletter = () => {
   const [input, setInput] = useState("");
