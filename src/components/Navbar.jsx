@@ -7,9 +7,8 @@ const navigation = [
 
 
   { name: 'Homepage', href: '/', current: true },
-  { name: 'Blog', href: '/blog', current: false },
   { name: 'My story', href: '/mystory', current: false },
-  { name: 'My setup', href: '/mysetup', current: false },
+  //{ name: 'My setup', href: '/mysetup', current: false },
   { name: 'Buy my products', href: '/buyproducts', current: false },
 ]
 
@@ -75,9 +74,9 @@ export default function Navbar() {
                   
                 </button> */}
                 {/* Socials */}
-                <a href="http://"><FiTwitter className='text-white ml-7 text-2xl'/></a>
-                <a href="http://"><FiInstagram className='text-white ml-4 text-2xl mr-2'/></a>
-                <a href="http://"><FiGithub className='text-white ml-2 text-2xl mr-2'/></a>               
+                {/* <a href=""><FiTwitter className='text-white ml-7 text-2xl'/></a> */}
+                <a href="https://www.instagram.com/techwithalberto/"><FiInstagram className='text-white ml-4 text-2xl mr-2'/></a>
+                <a href="https://github.com/albertoslavicadev"><FiGithub className='text-white ml-2 text-2xl mr-2'/></a>               
               </div>
             </div>
           </div>

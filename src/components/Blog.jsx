@@ -1,6 +1,8 @@
 const Blog = () => {
+  
   return (
     <>
+     
       <section class="bg-white">
         <div class="container px-6 py-10 mx-auto">
           <div class="grid grid-cols-1 gap-8 mt-8 md:mt-16 md:grid-cols-2">
@@ -19,9 +21,7 @@ const Blog = () => {
                   How to use sticky note for problem solving
                 </a>
 
-                <span class="text-sm text-gray-500 ">
-                  On: 20 October 2019
-                </span>
+                <span class="text-sm text-gray-500 ">On: 20 October 2019</span>
               </div>
             </div>
 
@@ -40,9 +40,7 @@ const Blog = () => {
                   How to use sticky note for problem solving
                 </a>
 
-                <span class="text-sm text-gray-500 ">
-                  On: 20 October 2019
-                </span>
+                <span class="text-sm text-gray-500 ">On: 20 October 2019</span>
               </div>
             </div>
 
@@ -60,9 +58,7 @@ const Blog = () => {
                   Morning routine to boost your mood
                 </a>
 
-                <span class="text-sm text-gray-500 ">
-                  On: 25 November 2020
-                </span>
+                <span class="text-sm text-gray-500 ">On: 25 November 2020</span>
               </div>
             </div>
 
@@ -102,9 +98,7 @@ const Blog = () => {
                   Minimal workspace for your inspirations
                 </a>
 
-                <span class="text-sm text-gray-500 ">
-                  On: 13 October 2019
-                </span>
+                <span class="text-sm text-gray-500 ">On: 13 October 2019</span>
               </div>
             </div>
 
@@ -123,9 +117,7 @@ const Blog = () => {
                   What do you want to know about Blockchane
                 </a>
 
-                <span class="text-sm text-gray-500 ">
-                  On: 20 October 2019
-                </span>
+                <span class="text-sm text-gray-500 ">On: 20 October 2019</span>
               </div>
             </div>
           </div>

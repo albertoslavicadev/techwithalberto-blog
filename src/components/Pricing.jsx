@@ -67,11 +67,11 @@ const Pricing = () => {
                 <span class="text-primary font-semibold text-lg block mb-4">
                   Base
                 </span>
-                <h2 class="font-bold text-dark mb-5 text-[42px]">$99</h2>
+                <h2 class="font-bold text-dark mb-5 text-[42px]">$69 + VAT</h2>
                 <p
                   class="
                   text-base text-body-color
-                  pb-8
+                  pb-81
                   mb-8
                   border-b border-[#F2F2F2]
                   "
@@ -100,7 +100,7 @@ const Pricing = () => {
                   </p>
                 </div>
                 <a
-                  href="javascript:void(0)"
+                  href="https://techwithalberto.gumroad.com/l/vskfmf"
                   class="
                   w-full
                   block
@@ -408,10 +408,10 @@ const Pricing = () => {
                "
               >
                 <span class="text-primary font-semibold text-lg block mb-4">
-                  Lorem
+                  Middle
                 </span>
                 <h2 class="font-bold text-dark mb-5 text-[42px]">
-                  $299
+                $179 + VAT
                   <span class="text-base text-body-color font-medium"></span>
                 </h2>
                 <p
@@ -446,7 +446,7 @@ const Pricing = () => {
                   </p>
                 </div>
                 <a
-                  href="javascript:void(0)"
+                  href="https://techwithalberto.gumroad.com/l/fifudc"
                   class="
                   w-full
                   block
@@ -756,7 +756,7 @@ const Pricing = () => {
                 <span class="text-primary font-semibold text-lg block mb-4">
                   Full
                 </span>
-                <h2 class="font-bold text-dark mb-5 text-[42px]">$499</h2>
+                <h2 class="font-bold text-dark mb-5 text-[42px]">$400 + VAT</h2>
                 <p
                   class="
                   text-base text-body-color
@@ -789,7 +789,7 @@ const Pricing = () => {
                   </p>
                 </div>
                 <a
-                  href="javascript:void(0)"
+                  href="https://techwithalberto.gumroad.com/l/6"
                   class="
                   w-full
                   block
