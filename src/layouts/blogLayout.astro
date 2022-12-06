@@ -21,16 +21,29 @@ const {
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-R969D2985B"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-R969D2985B");
+    </script>
     <meta charset="utf-8" />
-    <link rel="icon" type ="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content = {Astro.generator} >
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2299333508615100"
-     crossorigin="anonymous"></script>
+    <meta name="generator" content={Astro.generator} />
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2299333508615100"
+      crossorigin="anonymous"
+    ></script>
     <SEO />
   </head>
-  <Navbar client:load/>
-  
+  <Navbar client:load />
 
   <main class="mt-10">
     <div
@@ -76,8 +89,6 @@ const {
       </p>
     </div>
   </main>
-  <div class="mt-4">
-
-  </div>
+  <div class="mt-4"></div>
   <Footer />
 </html>

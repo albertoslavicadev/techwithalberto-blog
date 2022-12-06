@@ -1,21 +1,34 @@
 ---
-import { SEO } from "astro-seo"
+import { SEO } from "astro-seo";
 ---
 
 <html lang="en">
   <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-R969D2985B"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-R969D2985B");
+    </script>
     <SEO
       title="Tech with Alberto"
-      description="The best website to learn react, php, laravel, golang and web development" />
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2299333508615100"
-     crossorigin="anonymous"></script>
+      description="The best website to learn react, php, laravel, golang and web development"
+    />
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2299333508615100"
+      crossorigin="anonymous"
+    ></script>
     <meta charset="utf-8" />
-    <link rel="icon" type ="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content = {Astro.generator} >
+    <meta name="generator" content={Astro.generator} />
     <title>Tech with Alberto</title>
   </head>
-  <body>
-    
-  </body>
+  <body> </body>
 </html>
