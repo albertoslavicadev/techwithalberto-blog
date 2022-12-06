@@ -41,7 +41,7 @@ const posts = (await Astro.glob("./posts/*.md")).sort(
               {post.frontmatter.description && (
                 <div class="opacity-70">{post.frontmatter.description}</div>
               )}
-              <span class="text-sm text-gray-500 ">On: 04 Decemeber 2022</span>
+              <span class="text-sm text-gray-500 ">On: {post.frontmatter.createdAt}</span>
             </div>
           </div>
         ))

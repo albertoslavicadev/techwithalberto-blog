@@ -4,7 +4,7 @@ slug: routing-in-laravel
 public: true
 layout: ../../layouts/blogLayout.astro
 title: How Routing in Laravel work?
-createdAt: 1663134489800
+createdAt: '2022-12-04'
 updatedAt: 1663635618067
 tags:
   - Computing

@@ -4,7 +4,7 @@ slug: is-php-still-good
 public: true
 layout: ../../layouts/blogLayout.astro
 title: Is PHP still good?
-createdAt: 1663134489800
+createdAt: '2022-12-04'
 updatedAt: 1663635618067
 tags:
   - Computing

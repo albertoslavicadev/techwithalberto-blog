@@ -2,6 +2,7 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { SEO } from "astro-seo";
+
 export interface Props {
   content: {
     title: string;
@@ -13,7 +14,7 @@ export interface Props {
   };
 }
 const {
-  content: { title, description, heroImage },
+  content: { title, description, heroImage, createdAt },
 } = Astro.props;
 ---
 
@@ -61,7 +62,7 @@ const {
         <div class="flex mt-3">
           <div>
             <p class="font-semibold text-gray-200 text-sm">Alberto</p>
-            <p class="font-semibold text-gray-400 text-xs">04 Dec</p>
+            <p class="font-semibold text-gray-400 text-xs">{createdAt}</p>
           </div>
         </div>
       </div>

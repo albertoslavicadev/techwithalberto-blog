@@ -1,10 +1,10 @@
 ---
 description: PHP
-slug: is-php-still-good
+slug: laravel-crud
 public: true
 layout: ../../layouts/blogLayout.astro
-title: Is PHP still good?
-createdAt: 1663134489800
+title: How to build a Laravel CRUD
+createdAt: '2022-12-04'
 updatedAt: 1663635618067
 tags:
   - Computing
